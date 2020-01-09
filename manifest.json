@@ -1,0 +1,13 @@
+{
+    "name": "RDG Launcher",
+    "version": "1.0",
+    "description": "Shortcut launcher for all my sites!",
+    "manifest_version": 2,
+    "icons": {"128": "icon_128.png"},
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+
+    },
+    "permissions": ["activeTab"]
+  }
